@@ -6,20 +6,23 @@ Demonstration of the methods introduced in "Beyond Word Importance:  Contextual 
 
 ![example](example.png)
 
-# follow-up work
+# Follow-up work
+
+This repo is no longer actively maintained, but some of these related works are actively maintaining / extending the ideas here.
+
+- ACD (ICLR 2019 [pdf](https://openreview.net/pdf?id=SkEqro0ctQ), [github](https://github.com/csinva/hierarchical-dnn-interpretations)) - extends CD to CNNs / arbitrary DNNs, and aggregates explanations into a hierarchy
+- CDEP (ICML 2020 [pdf](https://arxiv.org/abs/1909.13584), [github](https://github.com/laura-rieger/deep-explanation-penalization)) - penalizes CD / ACD scores during training to make models generalize better
+- TRIM (ICLR 2020 workshop [pdf](https://arxiv.org/abs/2003.01926), [github](https://github.com/csinva/transformation-importance)) - using simple reparameterizations, allows for calculating disentangled importances to transformations of the input (e.g. assigning importances to different frequencies)
+- DAC (arXiv 2019 [pdf](https://arxiv.org/abs/1905.07631), [github](https://github.com/csinva/disentangled-attribution-curves)) - finds disentangled interpretations for random forests
+- PDR framework (PNAS 2019 [pdf](https://arxiv.org/abs/1901.04592)) - an overarching framewwork for guiding and framing interpretable machine learning
 
 
-- This repo is no longer actively maintained, but two repos are actively maintaing / extending contextual decomposition:
-
-  1. [Hierarchical neural network interpretations repo](https://github.com/csinva/hierarchical-dnn-interpretations) - extends CD to CNNs / arbitrary DNNs, and aggregates explanations into a hierarchy, code for the paper [Hierarchical interpretations for neural network predictions (ICLR 2019)](https://openreview.net/pdf?id=SkEqro0ctQ)
-  2.  [Penalizing explanations repo](https://github.com/laura-rieger/deep-explanation-penalization) - penalizes CD explanations in order to improve model performance, under review
-
-# related work
+# Related work
 - this work is part of an overarching project, guided by the [PDR framework](https://arxiv.org/abs/1901.04592) for interpretable machine learning
 - for related work, see the [github repo](https://github.com/csinva/disentangled-attribution-curves) for [disentangled attribution curves](https://arxiv.org/abs/1905.07631)
 
 
 
-# reference
+# Reference
 
 - feel free to use/share this code openly!
