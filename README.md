@@ -17,12 +17,6 @@ This repo is no longer actively maintained, but some of these related works are 
 - PDR framework (PNAS 2019 [pdf](https://arxiv.org/abs/1901.04592)) - an overarching framewwork for guiding and framing interpretable machine learning
 
 
-# Related work
-- this work is part of an overarching project, guided by the [PDR framework](https://arxiv.org/abs/1901.04592) for interpretable machine learning
-- for related work, see the [github repo](https://github.com/csinva/disentangled-attribution-curves) for [disentangled attribution curves](https://arxiv.org/abs/1905.07631)
-
-
-
 # Reference
 
 - feel free to use/share this code openly!
